@@ -1,5 +1,5 @@
 function trackFroyoOrder() {
-  const userInput = prompt("Enter your froyo flavors (comma seperated):");
+  const userInput = prompt("Enter your froyo flayors(comma seperated):");
   const flavorArray = userInput.split(",");
   const flavorCount = {};
   for (const flavor of flavorArray) {
@@ -11,5 +11,4 @@ function trackFroyoOrder() {
   }
   console.log(flavorCount);
 }
-
-trackFroyoOrder();
+trackFroyoOrder;
